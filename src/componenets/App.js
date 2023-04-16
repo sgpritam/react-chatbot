@@ -1,11 +1,14 @@
-import React from "react";
+import React, { Component } from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <h1>React ChatBot</h1>
-    </div>
-  );
+class App extends Component {
+  state = {};
+  render() {
+    return (
+      <div className="App">
+        <header>React ChatBot</header>
+      </div>
+    );
+  }
 }
 
 export default App;
